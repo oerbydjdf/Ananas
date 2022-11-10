@@ -1,0 +1,346 @@
+@import url('../fonts/stylesheet.css');
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+._container {
+	width: 1160px;
+	margin: 0 auto;
+}
+
+/* ==========================================Header============================================ */
+.header {
+	padding: 0 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 108px;
+}
+.logo__foto {
+	width: 140px;
+	height: 60px;
+}
+.header__nav {
+	display: flex;
+	align-items: center;
+	gap: 0 100px;
+	font-family: 'Montserrat Medium';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+}
+.header__nav a {
+	color: #3A3A3A;
+}
+.nav__menu {
+	display: flex;
+	gap: 0 56px;
+}
+.header__link {
+	background: #FFB808;
+    border-radius: 100px;
+	width: 261px;
+	height: 52px;
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+    padding: 0 28px 0 24px;
+
+}
+.header__download {
+	width: 18px;
+	height: 18px;
+}
+/* ========================================Delivery======================================== */
+.delivery {
+	height: 730px;
+	background: #009933;
+	overflow: hidden;
+}
+.delivery__container {
+	padding: 53px 0 0 0;
+	display: flex;
+	gap: 0 88px;
+}
+h1 {
+	font-family: PF Square Sans Pro;
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 67px;
+	letter-spacing: 0.017em;
+	text-align: left;
+	color: rgba(234, 202, 4, 1);
+	margin: 124px 0 24px 0;	
+}
+.delivery__discription {
+	width: 751px;
+	color: #FFFFFF;
+	font-family: 'Montserrat';
+}
+.delivery__text {
+	width: 557px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 32px;
+	margin: 0 0 56px 0;
+}
+.delivery__appText {
+	width: 266px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 32px;
+	margin: 0 0 24px 0;
+}
+.delivery__appLogo {
+	display: flex;
+	gap: 0 24px;
+}
+.delivery__link {
+	background: #FFFFFF;
+    border-radius: 100px;
+    width: 213px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+    padding: 0 18px 0 24px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	color: #3A3A3A;
+}
+.delivery__foto {
+	position: relative;
+}
+.delivery__ananasFoto {
+	width: 398px;
+	height: 788px;
+}
+.delivery__QrFoto {
+	position: absolute;
+	top: 464px;
+	left: 90px;
+	height: 196px;
+	Width: 211px;
+}
+/* ========================================Oportunites=================================== */
+.opportunities {
+	padding: 164px 10px 115px 10px;
+}
+.opportunities__title {
+	display: flex;
+	gap: 0 26px;
+}
+.title__text {
+	font-family: 'PF Square Sans Pro';
+	font-style: normal;
+	font-weight: 1000;
+	font-size: 40px;
+	line-height: 48px;
+	letter-spacing: 0.017em;
+	text-transform: uppercase;
+	color: #3A3A3A;
+	width: 219px;
+	margin: 0 0 64px 0px;
+}
+.title__foto {
+	position: relative;
+	width: 90px;
+	height: 90px;
+	top: 15px;
+
+}
+.opportunities__discription {
+	font-family: 'Montserrat';
+	color: #3A3A3A;
+	display: flex;
+}
+.opportunities__foto {
+	height: 300px;
+}
+.opportunities__foto :nth-child(1) {
+	position: relative;
+	top: 122px;
+	left: -45px;
+}
+.opportunities__foto :nth-child(2) {
+	position: relative;
+	left: -163px;
+}
+.opportunities__foto :nth-child(3) {
+	position: relative;
+    left: 303px;
+    z-index: -1;
+    top: -406px;
+}
+.opportunities__img {
+	width: 289px;
+	height: 499px;
+}
+.opportunities__text > *:not(:last-child) {
+	margin: 0 0 56px 0;
+}
+.text__foto {
+	Width: 21px;
+	Height: 15px;
+	position: relative;
+	left: -41px;
+    top: 20px;
+}
+.text__subtitle {
+	width: 311px;
+	height: 24px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	text-transform: uppercase;
+	margin:  0 0 24px 0;
+}
+.text__discrip {
+	width: 503px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+}
+/* ================================================Question============================ */
+.question {
+	padding: 0 10px 124px 10px;
+}
+.question__container {
+	display: flex;
+	justify-content: space-between;
+}
+.title__questionFoto {
+	width: 476px;
+	height: 626px;
+}
+.question__list {
+	font-family: 'Montserrat';
+}
+.list__item > *:not(:last-child) {
+	margin: 0 0 8px 0;
+}
+.list__arrow {
+	width: 16px;
+	height: 12px;
+}
+.list__text {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	height: 72px;
+	left: 980px;
+	top: 2013px;
+	background: #3A3A3A;
+	padding: 0 24px 0 24px;
+	display: flex;
+	align-items: center;
+	gap: 0 18px;
+}
+
+.list__answer_display-none {
+	display: none;
+}
+.list__answer_active {
+	width: 658px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #3A3A3A;
+	padding: 32px 20px 40px 56px;
+}
+.question__buttom {
+	margin: 40px 0;
+}
+.question__app {
+	width: 424px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	text-decoration-line: underline;
+	color: #3A3A3A;
+}
+
+/* ===================================Footer======================================== */
+.footer {
+	height: 296px;
+	background: #EEEEEE;
+	padding: 64px 82px 64px 82px;
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Montserrat';
+}
+.footer__item {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+}
+.footer__logo {
+	margin: 0 0 36px 0;
+}
+.footer__title {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #3A3A3A;
+}
+.footer__title ul {
+	margin: 24px 0 0 0;
+}
+.footer__title ul > *:not(:last-child) {
+	margin: 0 0 24px 0;
+
+}
+.footer__link {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+
+}
